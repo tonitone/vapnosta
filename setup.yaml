@@ -1,0 +1,7 @@
+---
+document_root: ../www
+ip: 11.22.33.44
+packages:
+  # add new packages here if needed
+  - htop
+  

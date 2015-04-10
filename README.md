@@ -18,6 +18,7 @@ Basic setup for PHP and NODE development with the following components:
  * gmarik/Vundle.vim
  * moll/vim-node
  * shawncplus/phpcomplete.vim
+ * scrooloose/nerdtree
  * jistr/vim-nerdtree-tabs
  * nicoraffo/conque
 

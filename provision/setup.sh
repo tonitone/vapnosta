@@ -55,6 +55,7 @@ else
 	echo -e "--> Updating your Vim-Plugins ...\n"
 	vim +PluginUpdate +qall &> /dev/null
 fi
+chown -R vagrant:vagrant /home/vagrant/.vim /home/vagrant/.vimrc
 
 # Build Node
 if ! type -p node; then

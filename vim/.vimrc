@@ -13,6 +13,7 @@ Plugin 'gmarik/Vundle.vim'
 "
 Plugin 'moll/vim-node'
 Plugin 'shawncplus/phpcomplete.vim'
+Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 
 " Vim ConqueShell (shell in Vim)

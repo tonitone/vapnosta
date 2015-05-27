@@ -18,7 +18,7 @@ sudo php5enmod mcrypt &> /dev/null
 
 # php
 echo -e "--> Install PHP ...\n"
-apt-get install php5-cli php5-mysql php5-gd php5-xdebug php5-fpm nginx -y &> /dev/null
+apt-get install php5-cli php5-mysql php5-gd php5-curl php5-xdebug php5-fpm nginx -y &> /dev/null
 
 # mysql
 echo -e "--> Install MySQL specific packages and settings ...\n"

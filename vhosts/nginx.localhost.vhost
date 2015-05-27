@@ -1,6 +1,9 @@
 server {
 	listen 80;
 	server_name localhost localhost.local;
+	
+	access_log /var/log/nginx/localhost_access.log;
+	error_log /var/log/nginx/localhost_error.log warn;
 
 	root /var/www/localhost;
 	index index.php index.html;
@@ -13,5 +16,9 @@ server {
 		fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
 		fastcgi_cache off;
 		fastcgi_index index.php;
-	}	
+	}
+	
+	include /vagrant/nginx/global/restrictions.conf;
+	include /vagrant/nginx/global/wordpress_singleblock_rule.conf;
+	
 }

@@ -1,2 +1,3 @@
 .vagrant
 vhosts/nginx.clients.vhost
+node_install_log.txt
